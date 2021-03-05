@@ -11,17 +11,19 @@
 	<h1 style="color: rgb(0, 128, 96);">Online Calculator</h1>
 	<form action="Sum" method="post" style="color: rgb(102, 140, 255);">
 
-		First value:<input name="firstNum" style="width: 30px;"> <br>
-		<br> Second value:<input name="secondNum" style="width: 30px;">
-		<br>
-		<br> <input type="submit" value="+" onclick="form.action='Sum';"
-			style="width: 30px; height: 30px"> <input type="submit"
-			value="-" onclick="form.action='Substraction';"
-			style="width: 30px; height: 30px"> <input type="submit"
-			value="x" onclick="form.action='Multiplication';"
-			style="width: 30px; height: 30px"> <input type="submit"
-			value="/" onclick="form.action='Division';"
-			style="width: 30px; height: 30px">
+		First value:<input name="firstNum"
+			style="width: 30px; background-color: rgb(255, 218, 179); border: 1px solid rgb(0, 128, 96);">
+		<br> <br> Second value:<input name="secondNum"
+			style="width: 30px; background-color: rgb(255, 218, 179); border: 1px solid rgb(0, 128, 96);">
+		<br> <br> <input type="submit" value="+"
+			onclick="form.action='Sum';"
+			style="width: 30px; background-color: rgb(255, 218, 179); height: 30px; border: 2px solid rgb(0, 128, 96);">
+		<input type="submit" value="-" onclick="form.action='Substraction';"
+			style="width: 30px; background-color: rgb(255, 218, 179); height: 30px; border: 2px solid rgb(0, 128, 96);">
+		<input type="submit" value="x" onclick="form.action='Multiplication';"
+			style="width: 30px; background-color: rgb(255, 218, 179); height: 30px; border: 2px solid rgb(0, 128, 96);">
+		<input type="submit" value="/" onclick="form.action='Division';"
+			style="width: 30px; background-color: rgb(255, 218, 179); height: 30px; border: 2px solid rgb(0, 128, 96);">
 		<p style="color: rgb(0, 26, 102);">Result: ${result}</p>
 	</form>
 
