@@ -25,6 +25,7 @@
 		<input type="submit" value="/" onclick="form.action='Division';"
 			style="width: 30px; background-color: rgb(255, 218, 179); height: 30px; border: 2px solid rgb(0, 128, 96);">
 		<p style="color: rgb(0, 26, 102);">Result: ${result}</p>
+		
 	</form>
 
 </body>

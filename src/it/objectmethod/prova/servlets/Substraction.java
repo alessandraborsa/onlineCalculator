@@ -51,7 +51,9 @@ public class Substraction extends HttpServlet {
 			request.setAttribute("result", result);
 			request.getRequestDispatcher("calculator.jsp").forward(request, response);
 		} catch (Exception e) {
-			response.sendRedirect("error.jsp");
+			String result = "errore inserire dei numeri!";
+			request.setAttribute("result", result);
+			request.getRequestDispatcher("calculator.jsp").forward(request, response);
 		}
 	}
 
